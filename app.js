@@ -53,7 +53,7 @@ function takeCommand(message) {
     } else if (message.includes("open youtube")) {
         window.open("https://youtube.com", "_blank");
         speak("Opening Youtube...");
-    } else if (message.includes("Tell something about me")) {
+    } else if (message.includes('Tell something about me')) {
         speak("Your Name is Jitendra");
     } else if (message.includes("open Whatsapp")) {
         window.open("https://whatsapp.com", "_blank");
